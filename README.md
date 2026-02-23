@@ -222,6 +222,6 @@ If you find our work useful in your research, please cite:
 ---
 
 ## Contact Us
-Please feel free to contact us: [Chen Zhang](https://chen2hang.github.io) or [Jianghui Wang](https://jianghui-wang.github.io/) if you have any questions while starting up GraNT.
+Please feel free to contact us: [Chen Zhang](https://chen2hang.github.io) or [Jianghui Wang](https://jianghui-wang.github.io/) if you have any questions while starting up AtteNT.
 
  
