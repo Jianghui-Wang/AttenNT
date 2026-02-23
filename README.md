@@ -1,3 +1,11 @@
+# Nonparametric Teaching of Attention Learners
+
+[Chen Zhang*](https://chen2hang.github.io), [Jianghui Wang*](https://jianghui-wang.github.io/), Bingyang Cheng, Zhongtao Chen, Wendong Xu, Cong Wang, [Marco Canini](https://mcanini.github.io/), [Francesco Orabona](https://francesco.orabona.com/) [Yik-Chung Wu](https://www.eee.hku.hk/~ycwu), [Ngai Wong](https://www.eee.hku.hk/~nwong)
+
+[[`Paper`](https://chen2hang.github.io/_publications/nonparametric_teaching_of_attention_learners/ICLR_2026_Paper.pdf)] | [[`Project Page`](https://chen2hang.github.io/_publications/nonparametric_teaching_of_attention_learners/attent.html)]
+
+This is the official PyTorch implementation of the **[ICLR 2026]** paper: **[Nonparametric Teaching Attention Learners](https://chen2hang.github.io/_publications/nonparametric_teaching_of_attention_learners/ICLR_2026_Paper.pdf)**.
+
 # MultiMAE with AtteNTComplex
 
 This repository contains implementations of the AtteNT (Attention-based Training) algorithms for efficient model training. The repository includes two main projects:
@@ -191,5 +199,29 @@ pdeepspeed --master_port=<master/port> --include=<localhost>train.py \
     --lora_dropout 0 \
     --attent_ratio 0.7
 ```
+
+
+## Related works
+Related works for developing a deeper understanding of AtteNT are: <br>
+<p class="indented">[ICML 2025 Spotlight] <a href="http://arxiv.org/pdf/2505.14170">Nonparametric Teaching for Graph Property Learners</a>,</p>
+<p class="indented">[ICML 2024] <a href="https://arxiv.org/pdf/2405.10531">Nonparametric Teaching of Implicit Neural Representations</a>,</p>
+<p class="indented">[NeurIPS 2023] <a href="https://arxiv.org/pdf/2311.10318">Nonparametric Teaching for Multiple Learners</a>,</p>
+<p class="indented">[ICML 2023] <a href="https://arxiv.org/pdf/2306.03007">Nonparametric Iterative Machine Teaching</a>.<br></p>
+
+## Citation
+If you find our work useful in your research, please cite:
+```
+@inproceedings{zhang2026nonparametric,
+  title={Nonparametric Teaching for Attention Learners},
+  author={Zhang, Chen and Wang, Jianghui and Cheng, Bingyang and Chen, Zhongtao and Xu, Wendong and Wang, Cong and Canini, Marco and Orabona, Francesco and Wu, Yik-Chung and Wong, Ngai},
+  booktitle={ICLR},
+  year={2026}
+}
+```
+
+---
+
+## Contact Us
+Please feel free to contact us: [Chen Zhang](https://chen2hang.github.io) or [Jianghui Wang](https://jianghui-wang.github.io/) if you have any questions while starting up GraNT.
 
  
